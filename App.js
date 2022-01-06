@@ -7,7 +7,6 @@ const App = () => {
   const [values, handleChange] = useForm({ email: '', password: '', firstName: '' })
   // const [values2, handleChange2] = useForm({ firstName: "", lastName: "" });
 
-
   useEffect(() => {
     console.log('render')
   }, [values.email, values.password])
