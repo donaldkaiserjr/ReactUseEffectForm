@@ -9,5 +9,4 @@ export const useForm = (initialValues) => {
             [e.target.name]: e.target.values
         })
     }]
-    
 }
